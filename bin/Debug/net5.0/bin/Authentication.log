@@ -1,0 +1,321 @@
+INFO  09:16:27 Application started. Press Ctrl+C to shut down.
+INFO  09:16:27 Hosting environment: Development
+INFO  09:16:27 Content root path: C:\Users\2145995\source\repos\AuthMicroservice
+INFO  09:16:44 Login initiated!
+INFO  09:16:44 Validating the User!
+INFO  09:16:44 Token Is Generated!
+INFO  09:24:18 Application started. Press Ctrl+C to shut down.
+INFO  09:24:18 Hosting environment: Development
+INFO  09:24:18 Content root path: C:\Users\2145995\source\repos\AuthMicroservice
+INFO  09:24:50 Login initiated!
+INFO  09:24:54 Validating the User!
+INFO  09:25:39 Token Is Generated!
+ERROR 09:25:56 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at AuthMicroservice.Repository.RFQRepo.GenerateJSONWebToken(Auth userInfo) in C:\Users\2145995\source\repos\AuthMicroservice\Repository\RFQRepo.cs:line 29
+   at AuthMicroservice.Controllers.AuthController.Login(Auth login) in C:\Users\2145995\source\repos\AuthMicroservice\Controllers\AuthController.cs:line 48
+   at lambda_method2(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  09:27:44 Application started. Press Ctrl+C to shut down.
+INFO  09:27:44 Hosting environment: Development
+INFO  09:27:44 Content root path: C:\Users\2145995\source\repos\AuthMicroservice
+INFO  09:28:08 Login initiated!
+INFO  09:28:10 Validating the User!
+INFO  09:28:27 Token Is Generated!
+INFO  10:08:10 Login initiated!
+INFO  10:08:43 Application started. Press Ctrl+C to shut down.
+INFO  10:08:43 Hosting environment: Development
+INFO  10:08:43 Content root path: C:\Users\2145995\source\repos\AuthMicroservice
+INFO  10:10:34 Login initiated!
+INFO  10:10:57 Validating the User!
+INFO  10:17:24 Token Is Generated!
+INFO  02:30:55 Application started. Press Ctrl+C to shut down.
+INFO  02:30:55 Hosting environment: Development
+INFO  02:30:55 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  02:31:19 Login initiated!
+INFO  02:31:20 Validating the User!
+INFO  02:31:20 Token Is Generated!
+INFO  02:38:53 Application started. Press Ctrl+C to shut down.
+INFO  02:38:53 Hosting environment: Development
+INFO  02:38:53 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  02:44:50 Login initiated!
+INFO  02:44:51 Validating the User!
+INFO  02:44:51 Token Is Generated!
+INFO  02:45:29 Login initiated!
+INFO  02:45:29 Validating the User!
+INFO  02:45:30 Token Is Generated!
+INFO  02:47:28 Login initiated!
+INFO  02:47:28 Validating the User!
+INFO  02:47:28 Token Is Generated!
+INFO  02:49:34 Login initiated!
+INFO  02:49:34 Validating the User!
+INFO  02:57:58 Login initiated!
+INFO  02:57:58 Validating the User!
+INFO  02:57:58 Token Is Generated!
+INFO  03:26:52 Application started. Press Ctrl+C to shut down.
+INFO  03:26:52 Hosting environment: Development
+INFO  03:26:52 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  03:33:23 Login initiated!
+INFO  03:33:23 Validating the User!
+INFO  03:33:23 Token Is Generated!
+INFO  03:43:50 Login initiated!
+INFO  03:43:50 Validating the User!
+INFO  03:43:50 Token Is Generated!
+INFO  03:53:43 Login initiated!
+INFO  03:53:43 Validating the User!
+INFO  03:53:43 Token Is Generated!
+INFO  05:00:29 Login initiated!
+INFO  05:00:29 Validating the User!
+INFO  05:00:29 Token Is Generated!
+INFO  05:24:51 Login initiated!
+INFO  05:24:51 Validating the User!
+INFO  05:24:51 Token Is Generated!
+INFO  05:29:41 Login initiated!
+INFO  05:29:41 Validating the User!
+INFO  05:29:41 Token Is Generated!
+INFO  09:48:57 Login initiated!
+INFO  09:48:57 Validating the User!
+INFO  09:48:57 Token Is Generated!
+INFO  09:56:23 Login initiated!
+INFO  09:56:23 Validating the User!
+INFO  09:56:23 Token Is Generated!
+INFO  10:19:26 Login initiated!
+INFO  10:19:26 Validating the User!
+INFO  10:19:26 Token Is Generated!
+INFO  10:50:40 Login initiated!
+INFO  10:50:40 Validating the User!
+INFO  10:50:40 Token Is Generated!
+INFO  11:17:57 Login initiated!
+INFO  11:17:57 Validating the User!
+INFO  11:17:57 Token Is Generated!
+INFO  11:23:31 Login initiated!
+INFO  11:23:31 Validating the User!
+INFO  11:23:31 Token Is Generated!
+INFO  11:25:37 Login initiated!
+INFO  11:25:37 Validating the User!
+INFO  11:25:37 Token Is Generated!
+INFO  11:32:08 Login initiated!
+INFO  11:32:08 Validating the User!
+INFO  11:32:08 Token Is Generated!
+INFO  11:38:46 Login initiated!
+INFO  11:38:46 Validating the User!
+INFO  11:38:46 Token Is Generated!
+INFO  11:58:33 Login initiated!
+INFO  11:58:33 Validating the User!
+INFO  11:58:33 Token Is Generated!
+INFO  12:14:19 Login initiated!
+INFO  12:14:19 Validating the User!
+INFO  12:14:19 Token Is Generated!
+INFO  12:23:53 Login initiated!
+INFO  12:23:53 Validating the User!
+INFO  12:23:53 Token Is Generated!
+INFO  12:37:04 Login initiated!
+INFO  12:37:04 Validating the User!
+INFO  12:37:04 Token Is Generated!
+INFO  12:58:55 Application started. Press Ctrl+C to shut down.
+INFO  12:58:55 Hosting environment: Development
+INFO  12:58:55 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  01:00:40 Login initiated!
+INFO  01:00:40 Validating the User!
+INFO  01:00:40 Token Is Generated!
+INFO  02:41:56 Login initiated!
+INFO  02:41:56 Validating the User!
+INFO  02:41:56 Token Is Generated!
+INFO  03:02:25 Application started. Press Ctrl+C to shut down.
+INFO  03:02:25 Hosting environment: Development
+INFO  03:02:25 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  03:03:15 Login initiated!
+INFO  03:03:15 Validating the User!
+INFO  03:03:26 Login initiated!
+INFO  03:03:26 Validating the User!
+INFO  03:03:26 Token Is Generated!
+INFO  03:09:17 Login initiated!
+INFO  03:09:17 Validating the User!
+INFO  03:09:17 Token Is Generated!
+INFO  03:15:19 Login initiated!
+INFO  03:15:19 Validating the User!
+INFO  03:15:19 Token Is Generated!
+INFO  03:18:19 Login initiated!
+INFO  03:18:19 Validating the User!
+INFO  03:18:19 Token Is Generated!
+INFO  03:31:38 Application started. Press Ctrl+C to shut down.
+INFO  03:31:38 Hosting environment: Development
+INFO  03:31:38 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  03:31:38 Login initiated!
+INFO  03:31:38 Login initiated!
+INFO  03:31:38 Validating the User!
+INFO  03:31:38 Validating the User!
+INFO  03:31:38 Token Is Generated!
+INFO  03:31:38 Token Is Generated!
+INFO  04:24:50 Login initiated!
+INFO  04:24:50 Validating the User!
+INFO  04:24:50 Token Is Generated!
+INFO  04:33:25 Login initiated!
+INFO  04:33:25 Validating the User!
+INFO  04:33:37 Login initiated!
+INFO  04:33:37 Validating the User!
+INFO  04:33:37 Token Is Generated!
+INFO  04:39:04 Login initiated!
+INFO  04:39:04 Validating the User!
+INFO  04:39:04 Token Is Generated!
+INFO  04:59:56 Login initiated!
+INFO  04:59:56 Validating the User!
+INFO  04:59:56 Token Is Generated!
+INFO  05:50:44 Login initiated!
+INFO  05:50:44 Validating the User!
+INFO  05:50:44 Token Is Generated!
+INFO  06:32:01 Application started. Press Ctrl+C to shut down.
+INFO  06:32:01 Hosting environment: Development
+INFO  06:32:01 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  06:41:51 Login initiated!
+INFO  06:41:51 Validating the User!
+INFO  06:41:52 Token Is Generated!
+INFO  09:34:54 Application started. Press Ctrl+C to shut down.
+INFO  09:34:54 Hosting environment: Development
+INFO  09:34:54 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  09:35:25 Login initiated!
+INFO  09:35:25 Validating the User!
+INFO  09:35:32 Login initiated!
+INFO  09:35:32 Validating the User!
+INFO  09:35:32 Token Is Generated!
+INFO  09:35:36 Login initiated!
+INFO  09:35:36 Validating the User!
+INFO  09:35:36 Token Is Generated!
+INFO  09:39:04 Login initiated!
+INFO  09:39:04 Validating the User!
+INFO  09:39:04 Token Is Generated!
+INFO  09:39:23 Login initiated!
+INFO  09:39:23 Validating the User!
+INFO  09:39:28 Login initiated!
+INFO  09:39:28 Validating the User!
+INFO  09:39:28 Token Is Generated!
+INFO  09:43:03 Login initiated!
+INFO  09:43:03 Validating the User!
+INFO  09:43:12 Login initiated!
+INFO  09:43:12 Validating the User!
+INFO  09:43:12 Token Is Generated!
+INFO  09:43:36 Login initiated!
+INFO  09:43:36 Validating the User!
+INFO  10:11:32 Login initiated!
+INFO  10:11:32 Validating the User!
+INFO  10:11:32 Token Is Generated!
+INFO  10:11:54 Login initiated!
+INFO  10:11:54 Validating the User!
+INFO  10:11:54 Token Is Generated!
+INFO  08:48:45 Login initiated!
+INFO  08:48:45 Validating the User!
+INFO  08:48:45 Token Is Generated!
+INFO  10:25:21 Application started. Press Ctrl+C to shut down.
+INFO  10:25:21 Hosting environment: Development
+INFO  10:25:21 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  12:31:09 Login initiated!
+INFO  12:31:09 Validating the User!
+INFO  12:31:09 Token Is Generated!
+INFO  12:31:22 Login initiated!
+INFO  12:31:22 Validating the User!
+INFO  12:31:22 Token Is Generated!
+INFO  12:40:08 Login initiated!
+INFO  12:40:08 Validating the User!
+INFO  12:40:08 Token Is Generated!
+INFO  12:45:40 Login initiated!
+INFO  12:45:40 Validating the User!
+INFO  12:45:40 Token Is Generated!
+INFO  12:48:18 Application started. Press Ctrl+C to shut down.
+INFO  12:48:18 Hosting environment: Development
+INFO  12:48:18 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  12:48:47 Login initiated!
+INFO  12:48:48 Validating the User!
+INFO  12:48:59 Token Is Generated!
+INFO  08:17:07 Application started. Press Ctrl+C to shut down.
+INFO  08:17:07 Hosting environment: Development
+INFO  08:17:07 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  08:18:52 Login initiated!
+INFO  08:18:52 Validating the User!
+INFO  08:18:52 Token Is Generated!
+INFO  11:15:53 Application started. Press Ctrl+C to shut down.
+INFO  11:15:53 Hosting environment: Development
+INFO  11:15:53 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  11:16:07 Login initiated!
+INFO  11:16:07 Validating the User!
+INFO  11:16:07 Token Is Generated!
+INFO  11:18:39 Login initiated!
+INFO  11:18:39 Validating the User!
+INFO  11:18:39 Token Is Generated!
+INFO  11:28:52 Application started. Press Ctrl+C to shut down.
+INFO  11:28:52 Hosting environment: Development
+INFO  11:28:52 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  11:29:20 Login initiated!
+INFO  11:29:20 Validating the User!
+INFO  11:29:20 Token Is Generated!
+INFO  11:30:35 Login initiated!
+INFO  11:30:36 Validating the User!
+INFO  11:30:42 Token Is Generated!
+INFO  11:37:49 Login initiated!
+INFO  11:37:49 Validating the User!
+INFO  11:37:49 Token Is Generated!
+INFO  11:43:09 Login initiated!
+INFO  11:43:09 Validating the User!
+INFO  11:43:09 Token Is Generated!
+INFO  11:51:50 Login initiated!
+INFO  11:51:50 Validating the User!
+INFO  11:51:50 Token Is Generated!
+INFO  02:07:16 Application started. Press Ctrl+C to shut down.
+INFO  02:07:16 Hosting environment: Development
+INFO  02:07:16 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  02:18:29 Login initiated!
+INFO  02:18:29 Validating the User!
+INFO  02:18:29 Token Is Generated!
+INFO  03:13:22 Application started. Press Ctrl+C to shut down.
+INFO  03:13:22 Hosting environment: Development
+INFO  03:13:22 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  03:19:32 Login initiated!
+INFO  03:19:32 Validating the User!
+INFO  03:19:32 Token Is Generated!
+INFO  03:23:47 Login initiated!
+INFO  03:23:47 Validating the User!
+INFO  03:23:47 Token Is Generated!
+INFO  03:41:29 Login initiated!
+INFO  03:41:29 Validating the User!
+INFO  03:41:29 Token Is Generated!
+INFO  03:45:38 Login initiated!
+INFO  03:45:38 Validating the User!
+INFO  03:45:38 Token Is Generated!
+INFO  03:48:35 Login initiated!
+INFO  03:48:35 Validating the User!
+INFO  03:48:35 Token Is Generated!
+INFO  04:53:22 Application started. Press Ctrl+C to shut down.
+INFO  04:53:22 Hosting environment: Development
+INFO  04:53:22 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  04:53:35 Login initiated!
+INFO  04:53:35 Validating the User!
+INFO  04:53:35 Token Is Generated!
+INFO  10:34:42 Application started. Press Ctrl+C to shut down.
+INFO  10:34:42 Hosting environment: Development
+INFO  10:34:42 Content root path: C:\Users\2145995\Desktop\Manufacturing RFQ Management\AuthMicroservice
+INFO  10:35:29 Login initiated!
+INFO  10:35:29 Validating the User!
+INFO  10:35:29 Token Is Generated!
+INFO  10:38:14 Login initiated!
+INFO  10:38:14 Validating the User!
+INFO  10:38:14 Token Is Generated!
